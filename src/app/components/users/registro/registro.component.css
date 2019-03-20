@@ -1,0 +1,59 @@
+.example-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.example-container > * {
+  max-width: 400px;
+}
+
+.example-right-align {
+  text-align: right;
+}
+
+input.example-right-align::-webkit-outer-spin-button,
+input.example-right-align::-webkit-inner-spin-button {
+  display: none;
+}
+
+input.example-right-align {
+  -moz-appearance: textfield;
+}
+.allignCenter {
+  width: 400px;
+  margin: 1px auto;
+  text-align: center;
+}
+.btn-social{
+  margin-bottom : 7px;
+  border-color: rgba(0,0,0,2);
+  color: #ffffff;
+
+}
+
+.btn-facebook{
+  background: #3b5998;
+}
+
+.btn-google{
+  background: #dd4b39;
+}
+
+.btn-access{
+  background: #808000;
+}
+
+.center{
+  margin: 0 auto;
+}
+
+.centerBtn{
+  margin: 0 10px;
+}
+
+.image{
+  width: 100%!important;
+  height: 150px;
+  margin-top: 0!important;
+
+}

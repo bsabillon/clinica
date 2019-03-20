@@ -1,0 +1,12 @@
+.example-icon {
+  padding: 0 14px;
+}
+
+.d-block{
+  display: block !important;
+}
+.d-block * {
+  vertical-align: top!important;
+  line-height: 64px !important;
+}
+

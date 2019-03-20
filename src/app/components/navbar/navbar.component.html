@@ -1,0 +1,15 @@
+<mat-toolbar class="mat-elevation-z6 d-block" color="primary">
+  <span><mat-icon>home</mat-icon></span>
+  <span fxFlex></span>
+  <a mat-button class="nav-link " routerLink="/">Casa Abierta</a>
+  <span fxFlex></span>
+  <a mat-button  class="toRight" (click)="onLogout()" *ngIf="isLogged">Salir</a>
+  <a mat-button class="nav-link toRight"  routerLink="/user/registro" *ngIf="!isLogged"  >Registro</a>
+  <a mat-button class="nav-link toRight" routerLink="/user/inicio" *ngIf="!isLogged">Inicio de Sesion</a>
+  <a mat-button class="nav-link toRight" routerLink="/admin/list-jobs" *ngIf="isAdmin&&isLogged">Lista Ofertas</a>
+
+  <a mat-button class="nav-link " routerLink="/ofertas" *ngIf="isLogged">Tablero</a>
+  <a mat-button class="nav-link " routerLink="/user/perfil" *ngIf="isLogged">Perfil</a>
+
+</mat-toolbar>
+

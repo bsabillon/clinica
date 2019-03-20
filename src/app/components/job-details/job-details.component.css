@@ -1,0 +1,27 @@
+.example-card {
+  max-width: 400px;
+}
+
+.allignCenter {
+  width: 400px;
+  margin: 1px auto;
+}
+
+.d-block{
+  display: block !important;
+}
+.d-block * {
+  vertical-align: top!important;
+  line-height: 40px !important;
+}
+
+p.card-text{
+  text-align: justify;
+}
+
+.example-header-image {
+  background-image: url('https://firebasestorage.googleapis.com/v0/b/casaabierta-bf4ff.appspot.com/o/logos%2FWhatsApp%20Image%202019-03-06%20at%206.31.53%20PM.jpeg?alt=media&token=d2ba8274-c59c-4f9c-8440-2658976bfc4c');
+  background-size: cover;
+  margin: 0px!important; ;
+
+}

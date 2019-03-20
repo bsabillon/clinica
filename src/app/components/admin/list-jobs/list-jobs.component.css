@@ -1,0 +1,14 @@
+table {
+  width: 100%;
+}
+
+
+@media (max-width: 600px) {
+  body{
+    font-size: 10px;
+  }
+
+
+}
+
+
